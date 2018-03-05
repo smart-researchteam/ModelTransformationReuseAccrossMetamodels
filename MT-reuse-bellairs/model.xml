@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+	<featureModel>
+		<properties/>
+		<struct>
+			<and abstract="true" mandatory="true" name="MT Reuse">
+				<and mandatory="true" name="Mechanism">
+					<and mandatory="true" name="Correctness-checking">
+						<alt mandatory="true" name="Checking-Time">
+							<feature name="Static checking"/>
+							<feature name="Dynamic checking"/>
+						</alt>
+						<or mandatory="true" name="Checking-Type">
+							<feature name="Syntactic checking"/>
+							<feature name="Semantic checking"/>
+						</or>
+					</and>
+					<and mandatory="true" name="Mappings">
+						<or mandatory="true" name="arity">
+							<feature name="1-1"/>
+							<feature name="1-n"/>
+							<feature name="n-1"/>
+							<feature name="n-m"/>
+						</or>
+						<and mandatory="true" name="style">
+							<and name="intensional">
+								<alt mandatory="true" name="Match Evaluation">
+									<feature name="static"/>
+									<feature name="dynamic"/>
+									<feature name="user defined eval"/>
+								</alt>
+							</and>
+							<feature name="extensional"/>
+						</and>
+						<alt mandatory="true" name="Level">
+							<or name="intra">
+								<feature name="meta"/>
+								<feature name="model"/>
+							</or>
+							<or name="across">
+								<feature name="instantiation"/>
+								<feature name="typing"/>
+							</or>
+						</alt>
+						<or mandatory="true" name="definition">
+							<feature name="inferred"/>
+							<feature name="explicit"/>
+						</or>
+						<and mandatory="true" name="occurrences">
+							<feature name="multiple"/>
+						</and>
+						<and name="adaptation">
+							<and name="predefined">
+								<feature name="bidirectional"/>
+								<or mandatory="true" name="operators">
+									<feature name="renaming"/>
+									<feature name="class-to-association"/>
+									<feature name="association-to-class"/>
+								</or>
+							</and>
+							<feature name="arbitrary"/>
+							<or name="preprocessing">
+								<feature name="derived features"/>
+								<feature name="derived classes"/>
+							</or>
+						</and>
+					</and>
+					<or mandatory="true" name="Strategy">
+						<feature name="opportunistic"/>
+						<feature name="systematic"/>
+					</or>
+					<and mandatory="true" name="Reuse interface">
+						<alt mandatory="true" name="Form">
+							<feature name="Meta-model"/>
+							<feature name="Logic-based"/>
+							<feature name="DSL"/>
+						</alt>
+						<feature name="Derived from transformation"/>
+					</and>
+					<alt mandatory="true" name="Reuse By">
+						<feature name="Copy"/>
+						<feature name="Reference"/>
+					</alt>
+				</and>
+				<and mandatory="true" name="Reused MT Properties">
+					<and mandatory="true" name="TransformationKind">
+						<or name="M2M">
+							<feature name="Source-Reusability"/>
+							<feature name="Target-Reusability"/>
+						</or>
+						<feature name="InPlace"/>
+					</and>
+					<alt mandatory="true" name="Scope">
+						<feature name="complete"/>
+						<feature name="partial"/>
+					</alt>
+					<feature name="Language-independent"/>
+					<or mandatory="true" name="Abstraction Level">
+						<feature name="Design"/>
+						<feature name="Code"/>
+					</or>
+				</and>
+			</and>
+		</struct>
+		<constraints>
+			<rule>
+				<imp>
+					<var>model</var>
+					<var>explicit</var>
+				</imp>
+			</rule>
+			<rule>
+				<imp>
+					<var>1-n</var>
+					<var>1-1</var>
+				</imp>
+			</rule>
+			<rule>
+				<imp>
+					<var>n-1</var>
+					<var>1-1</var>
+				</imp>
+			</rule>
+			<rule>
+				<imp>
+					<var>n-m</var>
+					<conj>
+						<var>1-1</var>
+						<var>n-1</var>
+					</conj>
+				</imp>
+			</rule>
+		</constraints>
+		<calculations Auto="true" Constraints="true" Features="true" Redundant="true" Tautology="true"/>
+		<comments/>
+		<featureOrder userDefined="false"/>
+	</featureModel>
