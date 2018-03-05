@@ -69,11 +69,12 @@
 						<feature name="systematic"/>
 					</or>
 					<and mandatory="true" name="Reuse interface">
-						<alt mandatory="true" name="Form">
+						<or mandatory="true" name="Form">
 							<feature name="Meta-model"/>
 							<feature name="Logic-based"/>
 							<feature name="DSL"/>
-						</alt>
+							<feature name="Transformation"/>
+						</or>
 						<feature name="Derived from transformation"/>
 					</and>
 					<alt mandatory="true" name="Reuse By">

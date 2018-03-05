@@ -51,8 +51,9 @@
 		<feature automatic="selected" manual="undefined" name="Reuse interface"/>
 		<feature automatic="selected" manual="undefined" name="Form"/>
 		<feature automatic="undefined" manual="selected" name="Meta-model"/>
-		<feature automatic="unselected" manual="undefined" name="Logic-based"/>
-		<feature automatic="unselected" manual="undefined" name="DSL"/>
+		<feature automatic="undefined" manual="undefined" name="Logic-based"/>
+		<feature automatic="undefined" manual="undefined" name="DSL"/>
+		<feature automatic="undefined" manual="undefined" name="Transformation"/>
 		<feature automatic="undefined" manual="undefined" name="Derived from transformation"/>
 		<feature automatic="selected" manual="undefined" name="Reuse By"/>
 		<feature automatic="unselected" manual="undefined" name="Copy"/>
