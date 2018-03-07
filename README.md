@@ -6,9 +6,9 @@ Starting from some results of the [1st Workshop on Unifying Software Reuse](http
 An initial step consisted in providing:
 
 * a **Feature Model** (available [here](https://github.com/smart-researchteam/ModelTransformationReuseAccrossMetamodels/tree/master/MT-reuse-bellairs) in the form of a [featureIDE](https://marketplace.eclipse.org/content/featureide) file).
-* a list of initial approaches:
-  * Model Typing
-  * Concepts
-  * A-posteriori Typing
-  * Multilevel Modeling
-  * Design Patterns for Model Transformations
+* a list of initial **approaches** configurations according to this feature model, available [here](https://github.com/smart-researchteam/ModelTransformationReuseAccrossMetamodels/tree/master/MT-reuse-bellairs/configs)
+
+The idea is that any one can contribute by providing his/her own configuration for her/his approach.
+We will update our preliminary configuration tables (see figure below) accordingly.
+
+![Configuration table](/Configuration-maps-images/configs-table.png)
