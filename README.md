@@ -9,6 +9,8 @@ An initial step consisted in providing:
 * a list of initial **approaches** configurations according to this feature model, available [here](https://github.com/smart-researchteam/ModelTransformationReuseAccrossMetamodels/tree/master/MT-reuse-bellairs/configs)
 
 The idea is that any one can contribute by providing his/her own configuration for her/his approach.
-We will update our preliminary configuration tables (see figure below) accordingly.
+We will update our preliminary configuration tables accordingly (see figure below, where  a
+green square means selected and a square with a red line means not
+selected).
 
-![Configuration table](/Configuration-maps-images/configs-table.png)
+![Configuration table](/Configuration-maps-images/configs-table.png) | ![Mappings table](/Configuration-maps-images/mappings-table.png)
