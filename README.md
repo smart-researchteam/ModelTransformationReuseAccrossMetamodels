@@ -13,4 +13,6 @@ We will update our preliminary configuration tables accordingly (see figure belo
 green square means selected and a square with a red line means not
 selected).
 
-![Configuration table](/Configuration-maps-images/configs-table.png) | ![Mappings table](/Configuration-maps-images/mappings-table.png)
+Mappings table             |  Configuration table
+:-------------------------:|:-------------------------:
+![](/Configuration-maps-images/configs-table.png) | ![](/Configuration-maps-images/mappings-table.png)
