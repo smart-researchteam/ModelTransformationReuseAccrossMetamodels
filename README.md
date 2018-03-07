@@ -1,4 +1,4 @@
-# ModelTransformationReuseAccrossMetamodels
+# Model Transformation Reuse Accross Metamodels
 Artefacts and materials made available to compare Model Transformation Reuse approaches and techniques
 
 Starting from some results of the [1st Workshop on Unifying Software Reuse](http://www.bellairs2018.ece.mcgill.ca/), this repository aims at collecting (and making available) model transformations reuse approaches.
