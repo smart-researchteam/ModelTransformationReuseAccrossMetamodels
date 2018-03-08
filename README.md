@@ -1,4 +1,6 @@
 # Model Transformation Reuse Accross Metamodels
+
+## Objectives and provided materials
 Artefacts and materials made available to compare Model Transformation Reuse approaches and techniques
 
 Starting from some results of the [1st Workshop on Unifying Software Reuse](http://www.bellairs2018.ece.mcgill.ca/), this repository aims at collecting (and making available) model transformations reuse approaches.
@@ -16,3 +18,22 @@ selected).
 Configuration table             |  Mappings table
 :-------------------------:|:-------------------------:
 ![](/Configuration-maps-images/configs-table.png) | ![](/Configuration-maps-images/mappings-table.png)
+
+## Initiators
+
+* Jean-Michel Bruel, University of Toulouse, IRIT, France
+* Benoit Combemale, University of Toulouse, IRIT, France
+* Esther Guerra, Universidad Autónoma de Madrid, Spain
+* Jean-Marc Jézéquel, Univ Rennes, Inria, CNRS, IRISA, France
+* Jörg Kienzle, McGill University, Canada
+* Juan de Lara, Universidad Autónoma de Madrid, Spain
+* Gunter Mussbacher, McGill University, Canada
+* Eugene Syriani, Université de Montréal, Canada
+* Hans Vangheluwe, University of Antwerp, Belgium
+
+## Additional contributors
+
+[comment]: # Add your name here (by alphabetical order)!
+[comment]: # * Jonh Doe
+
+Your contribution is welcome. We will be happy to get your feedback on the feature model. Provide a configuration for your approach!
