@@ -1,0 +1,39 @@
+Mechanism
+Correctness-checking
+Checking-Time
+"Static checking"
+Checking-Type
+"Syntactic checking"
+Mappings
+arity
+1-1
+1-n
+n-1
+n-m
+style
+extensional
+Level
+intra
+meta
+definition
+explicit
+occurrences
+multiple
+adaptation
+arbitrary
+Strategy
+systematic
+"Reuse interface"
+Form
+Transformation
+"Reuse By"
+Reference
+"Reused MT Properties"
+TransformationKind
+M2M
+Source-Reusability
+Target-Reusability
+Scope
+complete
+"Abstraction Level"
+Design
