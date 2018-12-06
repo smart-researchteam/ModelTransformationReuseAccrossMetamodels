@@ -11,7 +11,7 @@
 		<feature automatic="undefined" manual="selected" name="Semantic checking"/>
 		<feature automatic="selected" manual="undefined" name="Mappings"/>
 		<feature automatic="selected" manual="undefined" name="arity"/>
-		<feature automatic="selected" manual="selected" name="1-1"/>
+		<feature automatic="selected" manual="undefined" name="1-1"/>
 		<feature automatic="undefined" manual="undefined" name="1-n"/>
 		<feature automatic="undefined" manual="undefined" name="n-1"/>
 		<feature automatic="undefined" manual="unselected" name="n-m"/>
@@ -32,8 +32,7 @@
 		<feature automatic="selected" manual="undefined" name="definition"/>
 		<feature automatic="undefined" manual="selected" name="inferred"/>
 		<feature automatic="undefined" manual="selected" name="explicit"/>
-		<feature automatic="selected" manual="undefined" name="occurrences"/>
-		<feature automatic="undefined" manual="selected" name="multiple"/>
+		<feature automatic="undefined" manual="undefined" name="Multiple occurrences"/>
 		<feature automatic="selected" manual="undefined" name="adaptation"/>
 		<feature automatic="selected" manual="undefined" name="predefined"/>
 		<feature automatic="undefined" manual="selected" name="bidirectional"/>
@@ -42,7 +41,7 @@
 		<feature automatic="undefined" manual="undefined" name="class-to-association"/>
 		<feature automatic="undefined" manual="undefined" name="association-to-class"/>
 		<feature automatic="undefined" manual="selected" name="arbitrary"/>
-		<feature automatic="selected" manual="selected" name="preprocessing"/>
+		<feature automatic="selected" manual="undefined" name="preprocessing"/>
 		<feature automatic="undefined" manual="selected" name="derived features"/>
 		<feature automatic="undefined" manual="undefined" name="derived classes"/>
 		<feature automatic="selected" manual="undefined" name="Strategy"/>

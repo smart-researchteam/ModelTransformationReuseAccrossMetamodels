@@ -4,8 +4,8 @@
 		<feature automatic="selected" manual="undefined" name="Mechanism"/>
 		<feature automatic="selected" manual="undefined" name="Correctness-checking"/>
 		<feature automatic="selected" manual="undefined" name="Checking-Time"/>
-		<feature automatic="undefined" manual="selected" name="Static checking"/>
-		<feature automatic="unselected" manual="undefined" name="Dynamic checking"/>
+		<feature automatic="unselected" manual="undefined" name="Static checking"/>
+		<feature automatic="undefined" manual="selected" name="Dynamic checking"/>
 		<feature automatic="selected" manual="undefined" name="Checking-Type"/>
 		<feature automatic="undefined" manual="selected" name="Syntactic checking"/>
 		<feature automatic="undefined" manual="undefined" name="Semantic checking"/>
@@ -16,11 +16,11 @@
 		<feature automatic="selected" manual="selected" name="n-1"/>
 		<feature automatic="undefined" manual="selected" name="n-m"/>
 		<feature automatic="selected" manual="undefined" name="style"/>
-		<feature automatic="undefined" manual="undefined" name="intensional"/>
-		<feature automatic="undefined" manual="undefined" name="Match Evaluation"/>
-		<feature automatic="undefined" manual="undefined" name="static"/>
-		<feature automatic="undefined" manual="undefined" name="dynamic"/>
-		<feature automatic="undefined" manual="undefined" name="user defined eval"/>
+		<feature automatic="selected" manual="selected" name="intensional"/>
+		<feature automatic="selected" manual="undefined" name="Match Evaluation"/>
+		<feature automatic="unselected" manual="undefined" name="static"/>
+		<feature automatic="undefined" manual="selected" name="dynamic"/>
+		<feature automatic="unselected" manual="undefined" name="user defined eval"/>
 		<feature automatic="undefined" manual="selected" name="extensional"/>
 		<feature automatic="selected" manual="undefined" name="Level"/>
 		<feature automatic="selected" manual="selected" name="intra"/>
@@ -33,27 +33,27 @@
 		<feature automatic="undefined" manual="undefined" name="inferred"/>
 		<feature automatic="undefined" manual="selected" name="explicit"/>
 		<feature automatic="undefined" manual="undefined" name="Multiple occurrences"/>
-		<feature automatic="selected" manual="selected" name="adaptation"/>
+		<feature automatic="selected" manual="undefined" name="adaptation"/>
 		<feature automatic="selected" manual="undefined" name="predefined"/>
-		<feature automatic="undefined" manual="undefined" name="bidirectional"/>
-		<feature automatic="selected" manual="selected" name="operators"/>
+		<feature automatic="undefined" manual="selected" name="bidirectional"/>
+		<feature automatic="selected" manual="undefined" name="operators"/>
 		<feature automatic="undefined" manual="selected" name="renaming"/>
-		<feature automatic="undefined" manual="selected" name="class-to-association"/>
-		<feature automatic="undefined" manual="selected" name="association-to-class"/>
+		<feature automatic="undefined" manual="undefined" name="class-to-association"/>
+		<feature automatic="undefined" manual="undefined" name="association-to-class"/>
 		<feature automatic="undefined" manual="selected" name="arbitrary"/>
-		<feature automatic="undefined" manual="undefined" name="preprocessing"/>
-		<feature automatic="undefined" manual="undefined" name="derived features"/>
+		<feature automatic="selected" manual="undefined" name="preprocessing"/>
+		<feature automatic="undefined" manual="selected" name="derived features"/>
 		<feature automatic="undefined" manual="undefined" name="derived classes"/>
 		<feature automatic="selected" manual="undefined" name="Strategy"/>
-		<feature automatic="undefined" manual="undefined" name="opportunistic"/>
+		<feature automatic="undefined" manual="selected" name="opportunistic"/>
 		<feature automatic="undefined" manual="selected" name="systematic"/>
 		<feature automatic="selected" manual="undefined" name="Reuse interface"/>
 		<feature automatic="selected" manual="undefined" name="Form"/>
-		<feature automatic="undefined" manual="undefined" name="Meta-model"/>
+		<feature automatic="undefined" manual="selected" name="Meta-model"/>
 		<feature automatic="undefined" manual="undefined" name="Logic-based"/>
 		<feature automatic="undefined" manual="undefined" name="DSL"/>
-		<feature automatic="undefined" manual="selected" name="Transformation"/>
-		<feature automatic="undefined" manual="undefined" name="Derived from transformation"/>
+		<feature automatic="undefined" manual="undefined" name="Transformation"/>
+		<feature automatic="undefined" manual="selected" name="Derived from transformation"/>
 		<feature automatic="selected" manual="undefined" name="Reuse By"/>
 		<feature automatic="unselected" manual="undefined" name="Copy"/>
 		<feature automatic="undefined" manual="selected" name="Reference"/>
@@ -62,12 +62,12 @@
 		<feature automatic="selected" manual="selected" name="M2M"/>
 		<feature automatic="undefined" manual="selected" name="Source-Reusability"/>
 		<feature automatic="undefined" manual="selected" name="Target-Reusability"/>
-		<feature automatic="undefined" manual="undefined" name="InPlace"/>
+		<feature automatic="undefined" manual="selected" name="InPlace"/>
 		<feature automatic="selected" manual="undefined" name="Scope"/>
 		<feature automatic="undefined" manual="selected" name="complete"/>
 		<feature automatic="unselected" manual="undefined" name="partial"/>
 		<feature automatic="undefined" manual="selected" name="Language-independent"/>
 		<feature automatic="selected" manual="undefined" name="Abstraction Level"/>
-		<feature automatic="undefined" manual="selected" name="Design"/>
-		<feature automatic="undefined" manual="undefined" name="Code"/>
+		<feature automatic="undefined" manual="undefined" name="Design"/>
+		<feature automatic="undefined" manual="selected" name="Code"/>
 	</configuration>

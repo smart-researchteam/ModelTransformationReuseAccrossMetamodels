@@ -32,8 +32,7 @@
 		<feature automatic="selected" manual="undefined" name="definition"/>
 		<feature automatic="undefined" manual="undefined" name="inferred"/>
 		<feature automatic="undefined" manual="selected" name="explicit"/>
-		<feature automatic="selected" manual="undefined" name="occurrences"/>
-		<feature automatic="undefined" manual="undefined" name="multiple"/>
+		<feature automatic="undefined" manual="undefined" name="Multiple occurrences"/>
 		<feature automatic="selected" manual="selected" name="adaptation"/>
 		<feature automatic="selected" manual="undefined" name="predefined"/>
 		<feature automatic="undefined" manual="undefined" name="bidirectional"/>
