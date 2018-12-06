@@ -1,4 +1,4 @@
-# Model Transformation Reuse Accross Metamodels
+# Model Transformation Reuse Across Metamodels
 
 ## Objectives and provided materials
 Artefacts and materials made available to compare Model Transformation Reuse approaches and techniques
