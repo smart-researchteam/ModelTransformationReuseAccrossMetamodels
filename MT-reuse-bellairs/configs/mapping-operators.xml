@@ -34,12 +34,12 @@
 		<feature automatic="undefined" manual="selected" name="explicit"/>
 		<feature automatic="undefined" manual="undefined" name="Multiple occurrences"/>
 		<feature automatic="selected" manual="selected" name="adaptation"/>
-		<feature automatic="selected" manual="undefined" name="predefined"/>
+		<feature automatic="undefined" manual="undefined" name="predefined"/>
 		<feature automatic="undefined" manual="undefined" name="bidirectional"/>
-		<feature automatic="selected" manual="selected" name="operators"/>
-		<feature automatic="undefined" manual="selected" name="renaming"/>
-		<feature automatic="undefined" manual="selected" name="class-to-association"/>
-		<feature automatic="undefined" manual="selected" name="association-to-class"/>
+		<feature automatic="undefined" manual="undefined" name="operators"/>
+		<feature automatic="undefined" manual="undefined" name="renaming"/>
+		<feature automatic="undefined" manual="undefined" name="class-to-association"/>
+		<feature automatic="undefined" manual="undefined" name="association-to-class"/>
 		<feature automatic="undefined" manual="selected" name="arbitrary"/>
 		<feature automatic="undefined" manual="undefined" name="preprocessing"/>
 		<feature automatic="undefined" manual="undefined" name="derived features"/>
